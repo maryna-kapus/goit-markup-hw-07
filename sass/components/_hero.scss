@@ -1,0 +1,47 @@
+/* hero */
+.hero {
+    padding: 200px 0;
+    background-color: var(--footer-bg-color);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/fon.jpg);
+    text-align: center;
+    width: 1600px;
+    margin: auto;
+}
+
+.hero-description {
+    max-width: 696px;
+    margin: 0 auto 30px;
+
+    color: var(--white-btn-color);
+    /* background: var(--footer-bg-color); */
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 10px 32px;
+    border: none;
+    color: var(--white-btn-color);
+    background: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    width: 216px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background: var(--hero-btn);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}

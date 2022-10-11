@@ -1,0 +1,47 @@
+/* чим ми займаємось*/
+.block-to-do {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.to-do-section {
+    padding-bottom: 94px;
+}
+
+.to-do {
+    /* padding-bottom: 50px; */
+    margin-bottom: 50px;
+}
+
+.to-do-img:not(:last-child) {
+    margin-right: 30px;
+}
+
+.to-do-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.to-do-img .link-p {
+    margin-bottom: 0;
+
+}
+
+.to-do-fon {
+    width: 370px;
+    height: 70px;
+    position: absolute;
+    /* left: 50%;
+  top: 50%;
+  transform: translate(-20%, -20%); */
+    background-color: #2F303A;
+    opacity: 0.8;
+}
+
+.text-todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,23 @@
+/* section */
+.section,
+.name,
+.spesiality-title {
+    color: var(--primary-text-color);
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    /* background-color: var(--most-background-color); */
+}
+
+.name-descript,
+.spesiality-detail {
+    color: var(--secondary-text-color);
+}
